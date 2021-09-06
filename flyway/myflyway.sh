@@ -14,7 +14,7 @@ options_env() {
 }
 
 if [ -z "$2" ]; then
-  echo "No argument supplied. Default environment: dev"
+  echo "No argument supplied. Default environment: test"
   options_env
 else
   for i in "${ENVIRONMENTS[@]}"; do
