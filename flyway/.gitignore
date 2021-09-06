@@ -1,3 +1,7 @@
 *.sh.x
 *.sh.x.c
 *.zip
+
+conf/dev.conf
+conf/prod.conf
+conf/test.conf
